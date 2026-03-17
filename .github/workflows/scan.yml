@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/anthonyzaf/Slow-Adders:latest'
+          default: 'ghcr.io/anthonyzaf/slow-adders:latest'
 
 jobs:
   scout:
